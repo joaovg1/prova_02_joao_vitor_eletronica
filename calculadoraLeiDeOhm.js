@@ -1,14 +1,14 @@
 function leiDeOhm() {
-    let resultado;
+    let resultado, corrente, tensao, resistencia;
     let opcao = parseInt(prompt("----OPÇÕES----\nDescobrir:\n1 - Resistência\n2 - Tensão\n3 - Corrente\nEscolha: "))
     if (opcao != 3) {
-        let corrente = parseFloat(prompt("Digite qual a corrente: "));
+        corrente = parseFloat(prompt("Digite qual a corrente: "));
     } 
     if (opcao != 2) {
-        let tensao = parseFloat(prompt("Digite qual a tensão: "));
+        tensao = parseFloat(prompt("Digite qual a tensão: "));
     }
     if (opcao != 1) {
-        let resistencia = parseFloat(prompt("Digite qual a resistência: "))
+        resistencia = parseFloat(prompt("Digite qual a resistência: "))
     }
 
     switch(opcao) {
