@@ -1,5 +1,9 @@
 function leiDeOhm() {
-    let resultado, corrente, tensao, resistencia;
+    let resultado;
+    let corrente;
+    let tensao;
+    let resistencia;
+    
     let opcao = parseInt(prompt("----OPÇÕES----\nDescobrir:\n1 - Resistência\n2 - Tensão\n3 - Corrente\nEscolha: "))
     if (opcao != 3) {
         corrente = parseFloat(prompt("Digite qual a corrente: "));
