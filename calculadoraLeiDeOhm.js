@@ -3,7 +3,7 @@ function leiDeOhm() {
     let corrente;
     let tensao;
     let resistencia;
-    
+
     let opcao = parseInt(prompt("----OPÇÕES----\nDescobrir:\n1 - Resistência\n2 - Tensão\n3 - Corrente\nEscolha: "))
     if (opcao != 3) {
         corrente = parseFloat(prompt("Digite qual a corrente: "));
@@ -27,5 +27,5 @@ function leiDeOhm() {
             break;
     }
     let nomes = ["Ω", "V", "A"];
-    console.log("O resultado é: "+ resultado +" "+ nomes[opcao]);
+    console.log("O resultado é: "+ resultado +" "+ nomes[opcao - 1]);
 }

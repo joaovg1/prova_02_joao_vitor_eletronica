@@ -24,7 +24,6 @@ function calculadoraResistor() {
         resultado = ((faixa[0] * 10) + faixa[1]) * multiplicador;
     } else if (qtdFaixas == 5) {
         resultado = (((faixa[0] * 100) + (faixa[1] * 10) + faixa[2]) * multiplicador);
-        
     }
  
     
